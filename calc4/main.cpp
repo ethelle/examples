@@ -1,10 +1,9 @@
 #include <QtGui/QApplication>
-#include "clock.h"
-#include "clockWidget.h"
+#include "calc.h"
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    Clock clock;
-    clock.show();
+    Calc calc;
+    calc.show();
     return app.exec();
 }

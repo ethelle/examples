@@ -1,6 +1,8 @@
 HEADERS += \
-    clock.h
+    clock.h \
+    clockWidget.h
 
 SOURCES += \
     main.cpp \
-    clock.cpp
+    clock.cpp \
+    clockWidget.cpp
